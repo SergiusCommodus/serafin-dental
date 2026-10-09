@@ -338,7 +338,7 @@ body.entered .hero-photo img{animation-play-state:running}
 @media (max-width:480px){.values{grid-template-columns:1fr}}
 
 /* ===== Gallery ===== */
-.gal{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:16px}
+.gal{display:grid;grid-template-columns:1.15fr 1fr 1fr;grid-auto-flow:dense;gap:16px}
 .gal figure{margin:0;position:relative;border-radius:18px;overflow:hidden;min-width:0;background:var(--paper)}
 .gal img{display:block;width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease), filter .6s}
 .gal figure:hover img{transform:scale(1.06)}
@@ -804,9 +804,10 @@ body.portal-open{overflow:hidden}
       <figure class="sq" data-rv data-rvc="rv-s"><img src="img/chair.jpg" alt="Caitlyn in gown and loupes beside a smiling patient in the dental chair" loading="lazy"><figcaption>A happy patient</figcaption></figure>
       <figure class="sq" data-rv data-rvc="rv-s"><img src="img/desk.jpg" alt="Caitlyn giving a thumbs up beside a dental charting screen" loading="lazy"><figcaption>Charting the plan</figcaption></figure>
       <figure class="wide" data-rv data-rvc="rv-s"><img src="img/clinic.jpg" alt="Caitlyn in mask and loupes treating a patient who gives a thumbs up" loading="lazy"><figcaption>Thumbs up from the chair</figcaption></figure>
+      <figure class="tall" data-rv data-rvc="rv-s"><img src="img/patient3.jpg" alt="Caitlyn in loupes and a blue gown beside a beaming patient in the dental chair" loading="lazy"><figcaption>All smiles after a visit</figcaption></figure>
       <figure class="sq" data-rv data-rvc="rv-s"><img src="img/patient2.jpg" alt="Caitlyn smiling in her clinic gown with a happy patient in the dental chair" loading="lazy"><figcaption>Smiles all around</figcaption></figure>
       <figure class="sq" data-rv data-rvc="rv-s"><img src="img/classmates.jpg" alt="Caitlyn in blue scrubs and a surgical cap with a classmate at Temple" loading="lazy"><figcaption>Kornberg classmates</figcaption></figure>
-      <figure class="sq" data-rv data-rvc="rv-s"><img src="img/extraction.jpg" alt="Caitlyn in cap, mask and gown holding two extracted teeth in a gloved hand" loading="lazy"><figcaption>Oral surgery rotation</figcaption></figure>
+      <figure class="wide" data-rv data-rvc="rv-s"><img src="img/extraction.jpg" alt="Caitlyn in cap, mask and gown holding two extracted teeth in a gloved hand" loading="lazy"><figcaption>Oral surgery rotation</figcaption></figure>
     </div>
   </div>
 </section>
